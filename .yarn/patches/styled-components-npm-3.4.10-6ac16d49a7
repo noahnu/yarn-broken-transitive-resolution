@@ -1,0 +1,13 @@
+diff --git a/dist/styled-components.browser.esm.js b/dist/styled-components.browser.esm.js
+index e5602c7a2b9d28f69a32e77b046d5afc9c4884b7..fa86d720e0bbae923fb2fe7d507ce14018eef677 100644
+--- a/dist/styled-components.browser.esm.js
++++ b/dist/styled-components.browser.esm.js
+@@ -14,7 +14,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
+ 
+ var classCallCheck = function (instance, Constructor) {
+   if (!(instance instanceof Constructor)) {
+-    throw new TypeError("Cannot call a class as a function");
++    throw new TypeError("Cannot call a class as a function!");
+   }
+ };
+ 
