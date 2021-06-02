@@ -586,7 +586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^3.4.10":
+"styled-components@npm:3.4.10":
   version: 3.4.10
   resolution: "styled-components@npm:3.4.10"
   dependencies:
@@ -624,6 +624,25 @@ __metadata:
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
   checksum: 19792fc00da531a083963c3679429dc739e03cb1ca7af2adf0317b25fcaf23655b8f37f8595a210be26003aa5a143003c6dc66ef80c545da85447277a4985bd1
+  languageName: node
+  linkType: hard
+
+"styled-components@patch:styled-components@npm:3.4.10#.yarn/patches/styled-components-npm-3.4.10-6ac16d49a7::locator=yarn-broken-transitive-resolution%40workspace%3A.":
+  version: 3.4.10
+  resolution: "styled-components@patch:styled-components@npm%3A3.4.10#.yarn/patches/styled-components-npm-3.4.10-6ac16d49a7::version=3.4.10&hash=f7d3b0&locator=yarn-broken-transitive-resolution%40workspace%3A."
+  dependencies:
+    buffer: ^5.0.3
+    css-to-react-native: ^2.0.3
+    fbjs: ^0.8.16
+    hoist-non-react-statics: ^2.5.0
+    prop-types: ^15.5.4
+    react-is: ^16.3.1
+    stylis: ^3.5.0
+    stylis-rule-sheet: ^0.0.10
+    supports-color: ^3.2.3
+  peerDependencies:
+    react: ">= 0.14.0 < 17.0.0-0"
+  checksum: 70f43c07224e998df905064a88ba2a369ff47bd3c8d815e6249bb6fe58de113c05bfcf78475e2999905e14215af769d0a48e43ab6e2480ff16c896326f41fe37
   languageName: node
   linkType: hard
 
@@ -689,6 +708,6 @@ __metadata:
     package-a: "workspace:package-a"
     react: ~16.8.0
     react-dom: ~16.8.0
-    styled-components: ^3.4.10
+    styled-components: ^5.3.0
   languageName: unknown
   linkType: soft
